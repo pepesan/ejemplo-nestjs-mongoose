@@ -9,7 +9,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { Photo } from './photo.entity';
 import { PhotoService } from './photo.service';
 import { MongooseModule } from '@nestjs/mongoose';
-import { Cat, CatSchema} from './schema';
+import { Cat, CatSchema } from './schema';
 import { MongoController } from './mongo.controller';
 import { MongoService } from './mongo.service';
 
